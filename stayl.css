@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    justify-content: space-between;
+}
+.text1 a{
+     text-decoration: none;
+     color: black   ;
+}
+.text1 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+.text1{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.img{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+.img button{
+    width: 100px;
+    background-color:#8F7EDC;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.p3{
+    display: none;
+}
+.main1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+.text2 h1{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 50px;
+}
+.text2 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.g1{
+    display: none;
+}
+.g2{
+    color: white;
+    border: none    ;
+    background-color: #8F7EDC;
+    width: 300px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 400px;
+}
+.n2{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(52, 8, 94);
+    margin-top: 200px;
+    margin-left: 250px;
+    border-radius: 40px;
+}
+.n3 h1{
+    color: white;
+    font-size: 70px;
+}
+.n4 img{
+    margin-top: 100px;
+    left: 30px;
+}
+.bo1{
+    align-items: center;
+    padding: 10px 200px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 200px;
+    width: 1450px;
+    height: 200px;
+    background-color: #8F7EDC;
+    color: white;
+}
+.y1 p{
+    margin-top: 50px;
+}
+.y4{
+ margin-top: 30px;
+}
+.bo2{
+    width: 1850px;
+    height: 30px;
+    text-align: center;
+    background-color: #6B5581;
+}
+.bo2 p{
+    padding-top: 10px;
+    color: white;
+}
+@media (max-width:412px) {
+    .bo2{
+        width: 400px;
+    }
+    .y1 p{
+        position: absolute;
+        top: 2850px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .y5{
+        font-size: 20px;
+        margin-top: 200px;
+        margin-right: 40px;
+    }
+    .y4{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .y6{
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .y1 img{
+        position: absolute;
+        top: 2850px;
+        width: 200px;
+        margin-left: 110px;
+    }
+    .bo1{
+        margin-top: 700px;
+        padding: 0;
+        width: 400px;
+        height: 400px;
+    }
+    .n3 h1{
+        font-size:40px;
+        margin-left: 30px;
+    }
+    .n4{
+        margin-top: 150px;
+        position: absolute;
+        left: 120px;
+    }
+    .n2{
+        margin-top: 250px;
+        padding: 0;
+        width: 400px;
+       position: absolute;
+       right: 20px;
+        height: 350px;
+    }
+    .g2{
+        position: absolute;
+        top: 2300px;
+        right:40px;
+        width: 400px;
+    }
+    .img3{
+        position: absolute;
+        top: 1460px;
+    }
+    .img3 img{
+        width: 400px;
+    }
+    .text3 p{
+        text-align: start;
+        font-size: 16px;
+    }
+    .img2{
+        position: absolute;
+        top: 900px;
+    }
+    .img2 img{
+        width: 400px;
+    }
+    .text2 p{
+        text-align: start;
+        font-size: 16px;
+    }
+       .g1{
+        border: none;
+        display: block;
+        margin-top: 100px;
+        width: 370px;
+        height: 40px;
+        background-color: #8F7EDC;
+        color: white;
+       }
+    .img1{
+        position: absolute;
+        top: 50px;
+    }
+    .img1 img{
+        width: 400px;
+    }
+    .text2 h1{
+        text-align: start;
+        font-size: 25px;
+    }
+    .text2{
+        margin-top: 300px;
+    }
+    .main1{
+        padding: 0;
+    }
+    .img img{
+        display: none;
+    }
+    .p1{
+        display: none;
+    }
+    .main{
+        padding: 10px 30px;
+    }
+    .text1 a{
+        display: none;
+    }
+}

@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    justify-content: space-between;
+}
+.text1 a{
+     text-decoration: none;
+     color: black   ;
+}
+.text1 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+.text1{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.img{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+.img button{
+    width: 100px;
+    background-color:#8F7EDC;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.p3{
+    display: none;
+}
+.main1{
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+}
+.text2{
+    margin-top: 100px;
+}
+.text2 h1{
+    font-size: 50px;
+}
+.text2 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.text2 button{
+    color: white;
+    border: none;
+    background-color:#8F7EDC;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+}
+.h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.h1 p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.main4{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 300px;
+    margin-top: 70px;
+}
+.main12{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 300px;
+    margin-top: 70px;
+}
+.text8{
+    display: flex;
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+.img6{
+    background-color: rgba(223, 223, 223, 0.849);
+    border-radius: 20px;
+    display: block;
+}
+.img12{
+    background-color: rgba(223, 223, 223, 0.849);
+    border-radius: 20px;
+    display: block;
+}
+
+#img6_1 {
+    padding: 35px;
+}
+#img12_1 {
+    padding: 35px;
+}
+#img6_1 img {
+    width: 230px;
+}
+#img12_1 img {
+    width: 230px;
+}
+#img6_2 {
+    background-color: rgb(145, 96, 209);
+    height: 20%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+#img12_2 {
+    background-color: rgb(145, 96, 209);
+    height: 20%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+    width: 200px;
+}
+#img6_2 p {
+    margin-top: 10px;
+}
+#img12_2 p {
+    margin-top: 10px;
+}
+.img11{
+    position: absolute;
+    left: 500px;
+    top: 3150px;
+}
+.im16{
+    position: absolute;
+    left: 500px;
+    top: 3150px;
+}
+.im17{
+    position: absolute;
+    left: 500px;
+    top: 3150px;
+}
+.im18{
+    position: absolute;
+    left: 500px;
+    top: 3150px;
+}
+.img15{
+    position: absolute;
+    left: 500px;
+    top: 3150px;
+}
+.img14{
+    position: absolute;
+    left: 600px;
+    top: 3150px;
+}
+.main5{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 300px;
+    margin-top: 70px;
+}
+.img7{
+    background-color: rgba(223, 223, 223, 0.849);
+    border-radius: 20px;
+    display: block;
+}
+
+#img7_1 {
+    padding: 35px;
+}
+#img7_1 img {
+    width: 210px;
+}
+#img7_2 {
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+#img7_2 p {
+    margin-top: 10px;
+    color: black;
+}
+.h3{
+    text-align: center;
+    margin-top: 100px;
+}
+.h3 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #4D4C4E;
+}
+.j1{
+    color: #4D4C4E;
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.j1 p{
+    margin-top: 30px;
+}
+.main11{
+  display: none;
+}
+.j2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.j3{
+    text-align: center;
+    margin-top: 200px;
+}
+.j3 h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.j3 p{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.img13{
+    display: flex;
+}
+.img14{
+    display: flex;
+}
+.p10{
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    z-index: 2;
+}
+.p11{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    z-index: 2;
+}
+.p12{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 980px;
+    z-index: 2;
+}
+.p19{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 990px;
+    z-index: 2;
+}
+.p16{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 990px;
+    z-index: 2;
+}
+.p19{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 990px;
+    z-index: 2;
+}
+.main13{
+    display: none;
+}
+.n1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.n2{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(52, 8, 94);
+    margin-top: 200px;
+    margin-left: 250px;
+    border-radius: 40px;
+}
+.n3 h1{
+    color: white;
+    font-size: 70px;
+}
+.n4 img{
+    margin-top: 100px;
+    left: 30px;
+}
+.bo1{
+    align-items: center;
+    padding: 10px 200px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 200px;
+    width: 1450px;
+    height: 200px;
+    background-color: #8F7EDC;
+    color: white;
+}
+.y1 p{
+    margin-top: 50px;
+}
+.y4{
+ margin-top: 30px;
+}
+.bo2{
+    width: 1850px;
+    height: 30px;
+    text-align: center;
+    background-color: #6B5581;
+}
+.bo2 p{
+    padding-top: 10px;
+    color: white;
+}
+@media (max-width:412px) {
+    .bo2{
+        width: 400px;
+    }
+    .y1 p{
+        position: absolute;
+        top: 5150px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .y5{
+        font-size: 20px;
+        margin-top: 200px;
+        margin-right: 40px;
+    }
+    .y4{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .y6{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .y1 img{
+        position: absolute;
+        top: 5150px;
+        width: 200px;
+        margin-left: 110px;
+    }
+    .bo1{
+        margin-top: 600px;
+        padding: 0;
+        width: 400px;
+        height: 400px;
+    }
+    .n3 h1{
+        font-size:40px;
+        margin-left: 30px;
+    }
+    .n4{
+        margin-top: 150px;
+        position: absolute;
+        left: 120px;
+    }
+    .n2{
+        padding: 0;
+        width: 400px;
+       position: absolute;
+       right: 20px;
+        height: 350px;
+    }
+    .n1{
+        font-size: 20px;
+        padding: 20px 50px;
+    }
+    .main13{
+        display: block;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .main12{
+        display: none;
+    }
+    .j3 h1{
+        color: #4D4C4E;
+        font-size: 30px;
+    }
+    .j3 p{
+        font-size: 15px;
+    }
+    .j2{
+        color: #4D4C4E;
+        font-size: 10px;
+    }
+    .main11{
+        display: block;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .j1 p{
+        font-size: 20px;
+    }
+    .j1{
+        margin-top: 500px;
+    }
+   .main4{
+    position: absolute;
+    right: 460px;
+   }
+   .main5{
+    position: absolute;
+    right: 460px;
+   }
+    .h3{
+        margin-top: 300px;
+    }
+    .h3 h1{
+        font-size: 40px;
+    }
+    .h3 p{
+        font-size: 19px;
+    }
+    .main4{
+        padding: 0;
+    }
+    .main5{
+        display: block;
+        padding: 0;
+    }
+    .text8{
+        padding: 0;
+    }
+    .img5{
+        display: none;
+    }
+    .img7{
+        display: none;
+    }
+    .c1{
+        display: none;
+    }
+    .c2{
+        display: none;
+    }
+    .img6{
+        position: absolute;
+        left: 100px;
+    }
+    .img7{
+        position: absolute;
+        left: 100px;
+    }
+    .main{
+        padding: 10px 30px;
+    }
+    .text1 p{
+        display: none;
+    }
+    .img img{
+        display: none;
+    }
+    .p1{
+        display: none;
+    }
+    .text1{
+        width: 10%;
+    }
+    .p3{
+        display: block;
+    }
+    .main1{
+        padding: 0;
+    }
+    .text2{
+        position: absolute;
+        top: 400px;
+        left: 20px;
+    }
+    .img1 img{
+        width: 400px;
+    }
+    .text2 h1{
+        font-size: 30px;
+    }
+    .text2 p{
+        font-size: 15px;
+    }
+    .text2 button{
+        width: 350px;
+    }
+    .h1{
+        font-size: 15px;
+        margin-top: 450px;
+    }
+}
